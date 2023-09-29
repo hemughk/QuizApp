@@ -6,7 +6,7 @@
 	<groupId>com.bookstore</groupId>
 	<artifactId>bookstore-spring-boot-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>bookstore-spring-demo</name>
 	<description>Book Store Spring Boot Demo</description>
 
