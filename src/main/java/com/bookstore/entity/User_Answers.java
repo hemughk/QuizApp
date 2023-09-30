@@ -1,6 +1,8 @@
 package com.bookstore.entity;
 
 import java.sql.Timestamp;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -42,6 +44,8 @@ public void setAnswers(String answers) {
 	this.answers = answers;
 }
 public void setStart_date(Timestamp start_date) {
-	this.start_date = start_date;
+	Calendar cal = GregorianCalendar.getInstance();
+	Timestamp tstamp = new Timestamp(cal.getTimeInMillis());
+	this.start_date = tstamp;
 }
 }
