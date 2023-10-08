@@ -12,7 +12,7 @@ public class DataSourceConfig {
     @Bean
     public DataSource getDataSource() {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
-        dataSourceBuilder.url("jdbc:mysql://10.128.29.186:3306/mcqdb");
+        dataSourceBuilder.url("jdbc:mysql://10.128.41.142:3306/mcqdb");
         dataSourceBuilder.username("hemanth");
         dataSourceBuilder.password("hemanth");
 
