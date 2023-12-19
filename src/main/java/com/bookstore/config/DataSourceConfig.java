@@ -16,6 +16,6 @@ public class DataSourceConfig {
         dataSourceBuilder.username("hemanth");
         dataSourceBuilder.password("hemanth");
 
-        return dataSourceBuilder.build();
+        return dataSourceBuilder();
     }
 }
